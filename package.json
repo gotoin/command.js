@@ -1,5 +1,5 @@
 {
-  "name": "command",
+  "name": "commands.js",
   "version": "0.0.1",
   "description": "node.js command line tool",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gotoin/command.js.git"
+    "url": "git+https://github.com/gotoin/commands.js.git"
   },
   "keywords": [
     "node.js",
@@ -18,7 +18,10 @@
   "author": "goto",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gotoin/command.js/issues"
+    "url": "https://github.com/gotoin/commands.js/issues"
   },
-  "homepage": "https://github.com/gotoin/command.js#readme"
+  "homepage": "https://github.com/gotoin/commands.js#readme",
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
 }
